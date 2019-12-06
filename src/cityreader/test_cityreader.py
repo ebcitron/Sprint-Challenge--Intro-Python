@@ -9,6 +9,7 @@ def check_city(inp, exp):
     if inp.lon != exp.lon:
       return False
     return True
+    
 
 class CityreaderTests(unittest.TestCase):
   def setUp(self):
